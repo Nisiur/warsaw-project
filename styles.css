@@ -1,0 +1,79 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+}
+
+#cont {
+  min-width: 1200px;
+  max-width: 1600px;
+}
+
+#backgroundImage {
+  background-image: url("images/warsaw.jpg");
+  background-size: cover;
+  padding: 20%;
+  height: 200px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#backgroundImage img {
+  min-width: 1307px;
+  max-width: 1400px;
+}
+
+#backgroundImage h1 {
+  margin-top: 0;
+  background: #457b9d;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+#backgroundImage h2 {
+  background: #1d3557;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+
+.headerActiv {
+  margin: 30px 0 50px 0;
+  font-size: 25px;
+}
+
+#threeActiv {
+  display: flex;
+  flex-direction: column;
+  background: #e6e6e6;
+}
+.activitiesMain {
+  display: flex;
+  justify-content: space-around;
+}
+.activities {
+  margin-bottom: 50px;
+}
+
+.activities img {
+  width: auto;
+  height: 170px;
+  border-radius: 50%;
+}
+
+.activities p {
+  width: 400px;
+}
